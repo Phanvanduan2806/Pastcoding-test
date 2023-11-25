@@ -40,6 +40,10 @@
                     @include icon($text-color-ori, $text-color-ori);
                     width: 70px;
                     height: 70px;
+                    @media (max-width:768px) {
+                        height: 50px;
+                        width: 50px;
+                    }
                     font-size: 1.5rem;
                 }
                 h3{
