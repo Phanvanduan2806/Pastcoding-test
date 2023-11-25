@@ -151,19 +151,38 @@ header .navbar .btn-secondary:hover {
   color: aliceblue;
   font-weight: lighter;
 }
+@media (min-width: 768px) and (max-width: 1200px) {
+  .slide .slide__bg .slide__content .slide__content__left h1 {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 768px) {
+  .slide .slide__bg .slide__content .slide__content__left h1 {
+    font-size: 2.5rem;
+  }
+}
 .slide .slide__bg .slide__content .slide__content__left h1 b {
   font-weight: bold;
   color: #F0914C;
 }
 .slide .slide__bg .slide__content .slide__content__left p {
-  font-size: 2.4rem;
   text-transform: uppercase;
   color: white;
   padding: 20px 0px;
 }
+@media (min-width: 1200px) {
+  .slide .slide__bg .slide__content .slide__content__left p {
+    font-size: 2.4rem;
+  }
+}
 @media (max-width: 768px) {
   .slide .slide__bg .slide__content .slide__content__left p {
     font-size: 1.4rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+  .slide .slide__bg .slide__content .slide__content__left p {
+    font-size: 2rem;
   }
 }
 .slide .slide__bg .slide__content .slide__content__left .slide__content__left__line {
@@ -791,8 +810,8 @@ textarea::placeholder {
 }
 @media (max-width: 1200px) and (min-width: 768px) {
   .root__plr {
-    padding-left: 120px;
-    padding-right: 120px;
+    padding-left: 100px;
+    padding-right: 100px;
   }
 }
 @media (max-width: 768px) and (min-width: 567px) {
