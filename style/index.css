@@ -147,9 +147,13 @@ header .navbar .btn-secondary:hover {
   align-items: flex-start;
 }
 .slide .slide__bg .slide__content .slide__content__left h1 {
-  font-size: 4rem;
-  color: aliceblue;
+  color: white;
   font-weight: lighter;
+}
+@media (min-width: 1200px) {
+  .slide .slide__bg .slide__content .slide__content__left h1 {
+    font-size: 4rem;
+  }
 }
 @media (min-width: 768px) and (max-width: 1200px) {
   .slide .slide__bg .slide__content .slide__content__left h1 {
